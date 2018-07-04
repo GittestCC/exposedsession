@@ -11,6 +11,7 @@ const server = Hapi.server({
  * @apiSuccess (Success_200) {Object} requestHeaders the request headers sent
  * @apiSuccess (Success_200) {String} data test text
  * @apiSuccess (Session) {String} kbsampleprovidej-account-id testing the dependency headers
+ * @apiError {String} error error message
  */
 server.route({
   method: 'GET',
