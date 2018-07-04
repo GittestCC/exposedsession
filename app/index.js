@@ -6,7 +6,7 @@ const server = Hapi.server({
 })
 
 /**
- * @api {get} /sample get protocol docs
+ * @api {get} sample node js project get protocol docs
  * @apiName GetDetails
  * @apiSuccess (Success_200) {Object} requestHeaders the request headers sent
  * @apiSuccess (Success_200) {String} data test text
